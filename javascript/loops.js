@@ -1,58 +1,87 @@
-// conditional statment
 
-// if(condition){
-//     //if condition is true
-// }else{
-//     //else this will execute
+// loops 
+// types of loops 
+// 1. for loop 
+// 2. while loop 
+// 3. do while loop
+
+// 1. for loop
+// for(initilization,condition,updatation){
+//     // statments
 // }
 
-// let num=77;
-
-// if(num%2==0){
-//     console.log("this is an even no.")
-// }else if(num%2==1){
-//     console.log("this is odd no. ")
-// }else{
-//     console.log("this is invalid no. ")
+// examples 
+// for(let i=0;i<5;i++){
+//     console.log("hello world")
 // }
 
+// for(let i=1;i<=10;i++){
+//     console.log("2 x "+i +" = "+i*2);
+// }
 
-// WAP that prints foo if a no. is divisible by 3
-// and print baar is a no. is divisible by 5
-// and print foobaar if no. is divisible bt both
+// ******
+// ******
+// ******
+// ******
+// ******
 
-
-// daksh
-// let a = 7;
-
-// if (a%3 == 0){
-//     if(a%5==0){
-//         console.log("foobar")
+// let row=7;
+// let col=7;
+// for (let i = 0; i < row; i++) {
+//     let str = ""
+//     for (let  j= 0; j < i; j++) {
+//         str = str + "* ";
 //     }
-//     else{
-//         console.log("foo");
-//     }
-// }
-// else if(a%5==0){
-//     console.log("baar");
+//     console.log(str)
 // }
 
-// else{
-//     console.log("Not div by 3 and 5")
+// i=row
+// j=col
+
+// *                i=0,j=0
+// * *              i=1,j=0,1
+// * * *            i=2,j=0,1,2
+// * * * *          i=3,j=0,1,2,3
+// * * * * *        i=4,j=0,1,2,3,4
+// * * * * * * 
+// * * * * * * * 
+
+// 2. while loop 
+
+// initilization
+// while(condiotn){
+//     //statement
+//     increment
 // }
 
 
-//arshpreet
-// let number = 15;
-// if (number % 3 === 0 && number % 5 === 0) {
-//     console.log("foobaar");
+// let i=1;
+// while(i<=5){
+//     console.log(i);
+//     i++;
 // }
-// else if (number % 3 === 0) {
-//     console.log("foo");
+
+
+// let arr=[45,65,23,76,89];
+
+// // output =[89,76,23,65,45];
+// // console.log(arr[2])
+
+// let i=0;
+// let j=arr.length-1;
+
+// while(i<j){
+//     // swap 
+//     let temp=arr[i];
+//     arr[i]=arr[j];
+//     arr[j]=temp;
+//     i++;
+//     j--;
 // }
-// else if (number % 5 === 0) {
-//     console.log("baar");
-// }
-// else {
-//     console.log("invalid number");
-// }
+
+// console.log(arr)
+
+
+
+
+
