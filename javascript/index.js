@@ -106,9 +106,9 @@
 
 // console.log(greet("Amit"));
 
-// 4 Immidiatly invoke funtion expression (IIFE)
-(
-    function(){
-        console.log('Hi there')
-    }
-)();
+// // 4 Immidiatly invoke funtion expression (IIFE)
+// (
+//     function(){
+//         console.log('Hi there')
+//     }
+// )();
