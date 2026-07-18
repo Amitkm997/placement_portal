@@ -1,19 +1,13 @@
 
 
-function CompanyCard(props){
-    // console.log(props)
-    // props={
-    //     companyName:"Amazon",
-        // salaryPackge:45 
-    // }
-    //    let companyName="amazon"
-
+function CompanyCard({companyName,salaryPackage,location}){
+    // const{companyName,salaryPackage,location}=props;
     return(
         <>
         <div>
-        <h1>{props.companyName}</h1>
-          <p>Package:{props.salaryPackage} LPA</p>
-          <p>Location:{props.location}</p>
+          <h1>{companyName}</h1>
+          <p>Package:{salaryPackage} LPA</p>
+          <p>Location:{location}</p>
         </div>
         </>
     )
